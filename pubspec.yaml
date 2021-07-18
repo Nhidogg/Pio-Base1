@@ -1,0 +1,178 @@
+name: Pio_Pio_pp
+description: Guía de observación de aves.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  path_provider: ^1.6.5
+  assets_audio_player: ^1.2.3
+  easy_dialog: ^1.0.5
+  esys_flutter_share: ^1.0.2
+  url_launcher: 4.1.0+1
+  pinch_zoom_image_updated: ^0.2.6
+  shared_preferences: ^0.5.6+3
+  fluttertoast: ^4.0.1
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+  - assets/img/fondo4.png
+  - assets/img/tit.png
+  - assets/audio/capensis.mp3
+  - assets/img/fondo5.png
+  - assets/img/fondo1.png
+  - assets/img/fondo2.png
+  - assets/img/fondo3.png
+  - assets/img/fondo6.png
+  - assets/img/fondo7.png
+  - assets/img/pios2.png
+  - assets/img/pios1.png
+  - assets/img/pios3.png
+  - assets/img/face1.png
+  - assets/img/insta1.png
+  - assets/img/twiter1.png
+  - assets/img/youtube1.png
+  - assets/img/redo2.png
+  - assets/img/colibri.gif
+  - assets/img/columba.png
+  - assets/audio/columba.mp3
+  - assets/audio/Alkamari.mp3
+  - assets/img/alkamari.png
+  - assets/audio/aedon1.mp3
+  - assets/img/ratonas.jpg
+  - assets/audio/atrata.mp3
+  - assets/img/atrata.jpg
+  - assets/img/zonotrichia.png
+  - assets/audio/chiguaco.mp3
+  - assets/img/chiguanco.png
+  - assets/audio/gaviota.mp3
+  - assets/img/gaviota.jpg
+  - assets/audio/gigas.mp3
+  - assets/img/gigas.png
+  - assets/audio/phrygilus.mp3
+  - assets/img/punensis.png
+  - assets/audio/rutilante.mp3
+  - assets/img/coruscans.png
+  - assets/audio/sayaca.mp3
+  - assets/img/sayaca.jpg
+  - assets/audio/torcaza.mp3
+  - assets/img/zenaida.png
+  - assets/img/poi1.png
+  - assets/img/pioD.png
+  - assets/img/altipl.png
+  - assets/img/pio24.png
+  - assets/img/ratonas.jpg
+  - assets/img/shot/alkamari2.png
+  - assets/img/shot/atrata3.png
+  - assets/img/shot/capensis3.png
+  - assets/img/shot/chiguango2.png
+  - assets/img/shot/coruscans3.png
+  - assets/img/shot/gaviota3.png
+  - assets/img/shot/gigas2.png
+  - assets/img/shot/livia3.png
+  - assets/img/shot/punensis3.png
+  - assets/img/shot/ratona3.png
+  - assets/img/shot/sayaca4.png
+  - assets/img/shot/torcaza3.png
+
+
+
+  #  - images/a_dot_burr.jpeg
+  #  - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+
+
+  uses-material-design: true
+  fonts:
+    - family: Metrobold
+      fonts:
+        - asset: assets/fonts/Metropolis-Bold.otf
+    - family: Metroregular
+      fonts:
+        - asset: assets/fonts/Metropolis-Regular.otf
+    - family: Metrolight
+      fonts:
+        - asset: assets/fonts/Metropolis-Light.otf
+    - family: Metroblack
+      fonts:
+        - asset: assets/fonts/Metropolis-Black.otf
+    - family: Metroblackitalic
+      fonts:
+        - asset: assets/fonts/Metropolis-BlackItalic.otf
+    - family: Metrobolditalic
+      fonts:
+        - asset: assets/fonts/Metropolis-BoldItalic.otf
+    - family: Metroextrabold
+      fonts:
+        - asset: assets/fonts/Metropolis-ExtraBold.otf
+    - family: Metroextralight
+      fonts:
+        - asset: assets/fonts/Metropolis-Extralight.otf
+    - family: Metroextralightitalic
+      fonts:
+        - asset: assets/fonts/Metropolis-ExtraLightItalic.otf
+    - family: Metromediumitalic
+      fonts:
+        - asset: assets/fonts/Metropolis-MediumItalic.otf
+    - family: Metrothinitalic
+      fonts:
+        - asset: assets/fonts/Metropolis-ThinItalic.otf
+
+
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
